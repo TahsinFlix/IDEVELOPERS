@@ -1,0 +1,46 @@
+ /* ------- Media Quary ------- */
+
+ @media (max-width: 991px){
+    .nav-link:hover::after, .nav-link:hover::before{
+        width: 0%;
+    }
+
+}
+
+@media (max-width: 335px){
+    .header_section a{
+        display: block;
+        width: 50%;
+        margin: 1rem auto;
+    }   
+
+    .form-floating label, .textarea_form label{
+        font-size: 10px;
+    }
+
+    .client_section{
+        display: none;
+    }
+}
+@media (max-width: 1000px){
+    .pricing_section, .client_section, .contact_us{
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .Subs_btn{
+        width: 5rem;
+        font-size: .8rem;
+    }
+
+}
+
+@media (max-width: 768px){
+    .footer_div{
+        margin: 2rem 0;
+    }
+
+    .footer_div2{
+        text-align: left;
+    }
+}
